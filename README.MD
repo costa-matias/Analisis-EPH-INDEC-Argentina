@@ -11,21 +11,21 @@ Analizar la evolución del mercado laboral argentino entre 2019 y 2025 a partir 
 - **Base optimizada:** 1.045.045 registros × 16 variables tras limpieza y curaduría
 - **27 trimestres** consecutivos (T1 2019 — T3 2025)
 - **31 aglomerados urbanos** de Argentina
-- **~23 millones** de personas en edad de trabajar representadas mediante ponderación
+- **23 millones** de personas en edad de trabajar representadas mediante ponderación
 
 ## Fuentes de datos
 - Microdatos EPH — Encuesta Permanente de Hogares
 - Organismo: Instituto Nacional de Estadística y Censos (INDEC)
 - Período analizado: T1 2019 — T3 2025
 - Cobertura: 31 aglomerados urbanos de Argentina
-- Población de referencia: ~23 millones de personas en edad de trabajar
+- Población de referencia: 23 millones de personas en edad de trabajar
 - Fuente oficial: https://www.indec.gob.ar
 
 ## Herramientas utilizadas
 - **Python**:
   - Extracción y consolidación de 27 trimestres de microdatos
   - Limpieza, transformación y creación de variables derivadas con Pandas
-  - Visualización con Matplotlib
+  - Visualización con Matplotlib y Seaborn.
 - **Power BI**:
   - Modelado de datos con Modelo en Estrella (Star Schema)
   - Creación de medidas dinámicas en DAX
